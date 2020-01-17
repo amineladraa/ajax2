@@ -1,0 +1,13 @@
+<Context reloadable="true">
+		<Resource name="jdbc/france"
+				auth="Container"
+				type="javax.sql.DataSource"
+				driverClassName="com.mysql.jdbc.Driver"
+				url="jdbc:mysql://127.0.0.1:3306/communes-france"
+				username="root"
+				password=""
+				maxActive="20"
+				maxIdle="10"
+				maxWait="10000"
+				removeAbandoned="true" />
+</Context>
